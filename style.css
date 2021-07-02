@@ -1,0 +1,139 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	min-height: 100vh;
+}
+#navbar {
+	align-items: center;
+	padding: 0.6rem;
+	padding-top: 15px;
+}
+.nav-item {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	width: 100%;
+	list-style: none;
+}
+
+.nav-item > li > a {
+	font-size: 13px;
+	text-decoration: none;
+	padding: 10px 0px;
+	padding-right: 16px;
+	vertical-align: middle;
+	color: #212121;
+	vertical-align: top;
+}
+.nav-item > li > a:hover {
+	text-decoration: underline;
+}
+.user-img {
+	padding: 0px 5px;
+	border-radius: 50%;
+}
+.user-img > img {
+	width: 30px;
+	padding: 2px 5px;
+	cursor: pointer;
+}
+.more-icon {
+	padding: 0px 5px;
+	cursor: pointer;
+}
+.more-icon:hover.more-icon > img {
+	background: #dcdcdc;
+	border-radius: 10%;
+}
+
+.more-icon > img {
+	width: 80%;
+	transition: all 0.3s linear;
+}
+#body-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 80vh;
+}
+.search-box {
+	display: flex;
+	width: 30vw;
+	min-width: 330px;
+	height: 20px;
+	padding: 10px 3px;
+	overflow: hidden;
+	border: 2px solid #e6e7e9;
+	border-radius: 30px;
+	margin: 32px 5px;
+	transition: all 0.3s linear;
+}
+.search-box:hover {
+	box-shadow: 0px 0px 25px -2px #717171;
+}
+.search-box > input {
+	flex: 1;
+	background: none;
+	border: none;
+}
+.search-box > input:hover,
+.search-box > input:focus {
+	border: none;
+}
+.search-box > img {
+	height: 20px;
+	width: 20px;
+	padding: 0px 11px;
+	cursor: pointer;
+}
+.buttons {
+	margin: 20px 0px;
+}
+.buttons > button {
+	padding: 7px 16px;
+	font-size: 14px;
+	color: #3c4043;
+	background: #f8f9fa;
+	border: none;
+	border-radius: 5px;
+	margin-right: 5px;
+	border: 2px solid #f8f9fa;
+	transition: all 0.3s ease-out;
+}
+.buttons > button:hover {
+	border: 2px solid #a5a5a5;
+}
+.location,
+.terms {
+	background: #f2f2f2;
+	padding: 1rem 1.8rem;
+}
+.location {
+	border-bottom: 1px solid #c7c7c7;
+	color: #747474;
+}
+.terms {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	lighting-color: #3c4043;
+	flex-wrap: wrap;
+}
+.ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+}
+.ul > li > a {
+	padding: 5px 10px;
+	text-decoration: none;
+	color: #747474;
+}
+.ul > li > a:hover {
+	text-decoration: underline;
+}
